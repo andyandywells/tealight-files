@@ -15,5 +15,5 @@ def movement():
 if touch() == 'wall':
   if left_side() != 'wall':
     movement()
-  else if right_side() != 'wall':
+ else if right_side() != 'wall':
     movement()
