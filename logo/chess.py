@@ -10,6 +10,7 @@ def polygon(edges, size):
     turn(angle)
 for i in range(0,8):
   move(10)
+  turn(90)
   for i in range(0,8):
     polygon(4,10)
     move(10)
