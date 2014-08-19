@@ -21,7 +21,7 @@ while touch() == 'wall':
     turn(1)
     while touch() != 'wall':
       move()
-  else:
+  elif right_side != 'wall':
      turn(-1)
      while touch() != 'wall':
       move()
