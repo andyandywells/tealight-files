@@ -12,4 +12,4 @@ if touch() != 'wall':
   for n in range(0, 10):
     move()
 else:
-  return("stop")
+  print("stop")
