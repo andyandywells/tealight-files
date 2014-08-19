@@ -4,7 +4,7 @@ colors = ["black", "red"]
 
 for i in range (0,4):
    move(200)
-   turn(90)
+   turn(45)
    for i in range(0,50):
     move(i)
     turn(90)
