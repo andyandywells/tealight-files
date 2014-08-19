@@ -12,6 +12,5 @@ def movement():
   while touch() != 'wall':
     move()
 
-if touch() == 'wall':
-  if left_side() != 'wall':
-    movement()
+if touch() !== 'wall':
+  movement()
