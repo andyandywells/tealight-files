@@ -1,6 +1,6 @@
 from tealight.logo import move, turn, color
 
-colors = ["black"]
+colors = ["black", "red"]
 
 
 for i in range(0,100):
@@ -9,4 +9,4 @@ for i in range(0,100):
   color(colors[i%1])
   
 move(100)
-color(colors[i%1])
+color(colors[i%2])
