@@ -10,7 +10,7 @@ from tealight.robot import (move,
 
 def movement():
   while touch() != 'wall':
-  move()
+    move()
 
 if touch() == 'wall':
   if left_side() != 'wall':
