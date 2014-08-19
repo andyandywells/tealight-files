@@ -3,7 +3,7 @@ from tealight.logo import move, turn, color
 colors = ["black", "red"]
 
 for i in range (0,4):
-   move(500)
+   move(200)
    turn(90)
    for i in range(0,100):
     move(i)
