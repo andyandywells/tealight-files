@@ -11,4 +11,4 @@ def polygon(edges, size):
 
 for i in range(0,8):
   polygon(4,10)
-  move(100)
+  move(10)
