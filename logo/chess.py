@@ -4,7 +4,8 @@ colors = ["black", "red"]
 
 
     
-for i in range(8,64):
+for i in range(0,64):
   move(100)
   turn(90)
+  move(100)
 
