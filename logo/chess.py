@@ -10,6 +10,5 @@ def polygon(edges, size):
     turn(angle)
 
 for i in range(0,8):
-  
   polygon(4,100)
   move(100)
