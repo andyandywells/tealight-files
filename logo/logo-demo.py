@@ -6,7 +6,7 @@ print "This is tealight!"
 
 colors = ["red", "blue", "green"]
 
-for i in range(10,10,100):
+for i in range(20,10,5):
   move(i)
   turn(83)
   c = colors[(i / 5)%3]
