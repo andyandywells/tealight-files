@@ -13,3 +13,4 @@ while touch() != 'wall':
 
 if left_side() != 'wall':
   turn(1)
+  move()
