@@ -4,7 +4,7 @@ from tealight.logo import (move,
 
 colors = ["red", "green", "blue"]
 
-for i in range(0,550):
+for i in range(0,10):
   move(i)
   turn(90)
   color(colors[i%3])
