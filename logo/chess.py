@@ -13,4 +13,4 @@ for i in range(0,8):
   polygon(4,10)
   move(10)
   if i%2 == 0:
-    color(colors[i%3])
+    color(colors[i%2])
