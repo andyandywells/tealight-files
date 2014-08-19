@@ -3,9 +3,13 @@ from tealight.logo import move, turn, color
 colors = ["black", "red"]
 
 
-    
-for i in range(0,4):
-  move(100)
-  turn(90)
-  move(100)
+def polygon(edges, size):
+  angle = 360.0 / edges
+  for i in range(0, edges):
+    move(size)
+    turn(angle)
 
+for i in range(0,8)
+  
+  polygon(4,100)
+  move(100)
