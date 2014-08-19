@@ -5,4 +5,4 @@ colors = ["red", "green", "blue"]
 
 for i in range(0,500):
   move(i)
-   color(colors[i%3])
+  color(colors[i%3])
