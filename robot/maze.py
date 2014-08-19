@@ -11,5 +11,4 @@ from tealight.robot import (move,
 if touch() != 'wall':
   for n in range(0, 10):
     move()
-else:
-  print("stop")
+
