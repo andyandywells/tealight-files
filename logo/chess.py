@@ -14,5 +14,5 @@ for i in range(0,1):
   turn(180)
   
   for i in range(0,8):
-      polygon(4,20)
+      polygon(4,10)
       move(10)
