@@ -1,6 +1,6 @@
 from tealight.logo import move, turn, color
 
-colors = ["black", "green", "blue"]
+colors = ["black"]
 
 
 for i in range(0,100):
