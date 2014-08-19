@@ -9,5 +9,5 @@ from tealight.robot import (move,
 # Add your code here
 
 for n in range(0, 10):
-  if touch() !== 'wall':
+ if touch() !== 'wall':
     move()
