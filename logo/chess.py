@@ -10,7 +10,7 @@ for i in range (0,64):
     turn(90)
     color(colors[i%1])
     
-for i in range(0,64)
+for i in range(0,64):
   move(100)
   turn(90)
 
