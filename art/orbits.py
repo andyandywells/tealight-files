@@ -12,7 +12,7 @@ power = 0.4
 def handle_keydown(key):
   global ax, ay
   
-
+  
   if key == "left":
     ax = -power
   elif key == "right":
@@ -40,7 +40,7 @@ def handle_frame():
   
   
   vx = ((0.95) * vx) + ax
-  vy = (0.5 * vy) + ay
+  vy = (0.95 * vy) + ay
   
   x = x + vx
   y = y + vy
