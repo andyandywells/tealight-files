@@ -7,7 +7,7 @@ vy = 0
 ax = 0
 ay = 0
 
-power = 0.1
+power = 0.5
 
 def handle_keydown(key):
   global ax, ay
@@ -16,11 +16,11 @@ def handle_keydown(key):
   if key == "left":
     ax = -0.1 * power
   elif key == "right":
-    ax = power
+    ax = 0.1 * power
   elif key == "up":
-    ay = -power
+    ay = 0.1 * -power
   elif key == "down":
-    ay = power
+    ay = 0.1 * power
   elif key == None:
     ay = -power
 
