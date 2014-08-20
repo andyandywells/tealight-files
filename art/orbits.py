@@ -45,6 +45,8 @@ def handle_frame():
   x = x + vx
   y = y + vy
   
+  if vx == 0:
+    vx = -ax
   color("blue")
   
   spot(x,y,8)
