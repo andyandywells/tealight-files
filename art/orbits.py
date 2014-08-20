@@ -14,7 +14,7 @@ def handle_keydown(key):
   
 
   if key == "left":
-    ax = -power
+    ax = -0.1power
   elif key == "right":
     ax = power
   elif key == "up":
@@ -45,5 +45,4 @@ def handle_frame():
   color("blue")
   
   spot(x,y,8)
-  
   
