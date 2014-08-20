@@ -47,7 +47,7 @@ def handle_frame():
   x = x + vx
   y = y + vy
   
-  if x<= or x>=900 
+ if x<= or x>=900 
     vx = 0.8 * -vx
     vy = 0.8 * -vy
  
