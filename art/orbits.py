@@ -9,6 +9,8 @@ ay = 0
 
 power = 0.4
 
+
+  
 def handle_keydown(key):
   global ax, ay
   
@@ -40,13 +42,12 @@ def handle_frame():
   
   
   vx = ((0.95) * vx) + ax
-  vy = (0.95 * vy) + ay
+  vy = (0.95 * vy) + ay + 0.1
   
   x = x + vx
   y = y + vy
   
-  if vx == 0:
-    vx = ((0.95) * -vx) + ax
+ 
   color("blue")
   
   spot(x,y,8)
