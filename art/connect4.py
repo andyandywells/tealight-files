@@ -1,1 +1,1 @@
-print "A new file!"
+myArray=[[1,2],[3,4]]
