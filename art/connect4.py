@@ -1,3 +1,3 @@
 
-Matrix = [[0 for x in xrange(5)] for x in xrange(5)] 
+Matrix = [[0 for x in xrange(8)] for x in xrange(8)] 
 print(Matrix[0][1])
