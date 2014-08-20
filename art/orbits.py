@@ -49,6 +49,8 @@ def handle_frame():
   
   if x<= 0 or x>= 900:
     vx = -vx 
+    
+  if y<=0 or y>= 900:
     vy = -vy
  
   color("blue")
