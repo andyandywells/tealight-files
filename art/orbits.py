@@ -14,13 +14,13 @@ def handle_keydown(key):
   
 
   if key == "left":
-    ax = -0.1 * power
+    ax = power
   elif key == "right":
-    ax = 0.1 * power
+    ax = power
   elif key == "up":
-    ay = .1 * -power
+    ay = -power
   elif key == "down":
-    ay = 0.1 * power
+    ay = power
   
 
 def handle_keyup(key):
