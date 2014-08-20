@@ -48,8 +48,8 @@ def handle_frame():
   y = y + vy
   
  if x<= or x>=900:
-   vx = 0.8 * -vx
-   vy = 0.8 * -vy
+  vx = 0.8 * -vx
+  vy = 0.8 * -vy
  
   color("blue")
   
