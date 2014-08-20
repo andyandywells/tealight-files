@@ -37,7 +37,11 @@ def handle_frame():
   color("white")
   
   spot(x,y,8)
-  vx = 0.5 * vx + ax
+  
+  if vx > 0: 
+  vx = vx + ax
+  
+  if vy > 0:
   vy = 0.5 * vy + ay
   
   x = x + vx
