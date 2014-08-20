@@ -21,7 +21,7 @@ image(200,200,"bird.png")
 
 line(560,0,560,495)
 
-text(100, 100, "Hello Tealight!")
+text(600, 100, "Hello Tealight!")
 
 lastx = None
 lasty = None
@@ -30,10 +30,10 @@ hue = 0
 def handle_mousemove(x,y):
   global lastx, lasty, hue
   
-  image(lastx or x, lasty or y, x, y)
- 
+  line(lastx or x, lasty or y, x, y)
+  color("hsl(%d,100%%,50%%)" % hue)
   
-  
+  hue += 1
   
   lastx = x
   lasty = y
