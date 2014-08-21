@@ -4,8 +4,8 @@ def initialiseMatrix():
   
   matrix[0][3] = 1
   matrix[1][2] = 1
-  matrix[3][1] = 1
-  matrix[4][0] = 1
+  matrix[2][1] = 1
+  matrix[3][0] = 1
   
   print(matrix)
   print(len(matrix))
