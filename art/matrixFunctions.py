@@ -1,15 +1,3 @@
-
-
-def initialiseMatrix():
-  matrix = [[0 for i in range(7)] for j in range(7)]
-  print(matrix)
-  return matrix
-  
-
-matrix = initialiseMatrix()
-
-
-  
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
   return matrix
