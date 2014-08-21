@@ -13,6 +13,8 @@ def initialiseMatrix():
 
 matrix = initialiseMatrix()
 
+
+  
 #check diagonal from left to right
 def checkDiagonalLR():
   for row in range(0,6):
@@ -59,5 +61,7 @@ def checkWin():
     print("four in a row")
     
 checkWin()
+
+
     
   
