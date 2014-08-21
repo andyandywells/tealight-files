@@ -25,7 +25,7 @@ def checkDiagonalLR():
 def checkDiagonalRL():
   for col in range(6,0):
     for row in range (6,0):
-      if matrix[col][row] == 1 and matrix[col][row] == matrix[col-1][row-1] and matrix[col][row] == matrix[col-2][row-2] and matrix[col][row] == matrix[col-3][row-3]:
+      if matrix[col][row] == 1 and matrix[col][row] == matrix[col-1][row+1] and matrix[col][row] == matrix[col-2][row+2] and matrix[col][row] == matrix[col-3][row+3]:
         print("four in a row")
 
 
