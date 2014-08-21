@@ -7,7 +7,7 @@ def initialiseMatrix():
   matrix[3][3] = 1
   print(matrix)
   print(len(matrix))
-
+  return matrix
 initialiseMatrix()
 
 for i in range(0,6):
