@@ -43,4 +43,4 @@ def checkVertical():
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row][col-1] and matrix[row][col] == matrix[row][col-2] and matrix[row][col] == matrix[row][col-3]:
         print("four in a row")
 
-checkVertical()
+checkHorizontal()
