@@ -2,8 +2,9 @@
 
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
-  return matrix
   print(matrix)
+  return matrix
+  
 
 matrix = initialiseMatrix()
 
