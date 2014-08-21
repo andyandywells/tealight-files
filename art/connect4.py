@@ -7,3 +7,5 @@ def initialiseMatrix():
   print(matrix)
 
 initialiseMatrix()
+
+print(len(matrix))
