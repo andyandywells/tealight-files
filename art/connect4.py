@@ -6,7 +6,7 @@ def initialiseMatrix():
   matrix[2][2] = 1
   matrix[3][3] = 1
   print(matrix)
+  print(len(matrix))
 
 initialiseMatrix()
 
-print(len(matrix))
