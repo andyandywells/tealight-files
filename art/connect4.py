@@ -5,6 +5,10 @@ def initialiseMatrix():
   matrix[1][1] = 1
   matrix[2][2] = 1
   matrix[3][3] = 1
+  matrix[0][3] = 1
+  matrix[1][2] = 1
+  matrix[2][1] = 1
+  matrix[3][0] = 1
   
   
   print(matrix)
@@ -29,4 +33,4 @@ def checkDiagonalRL():
         print("four in a row")
 
 
-checkDiagonalLR()
+checkDiagonalRL()
