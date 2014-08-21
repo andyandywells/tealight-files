@@ -1,5 +1,5 @@
-p1win = "Yellow wins"
-p2win = "Red wins"
+p1win = "Red wins"
+p2win = "Yellow wins"
 
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
@@ -20,3 +20,4 @@ def checkwin(matrix):
         return p2win
       else:
         return 0
+
