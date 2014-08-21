@@ -8,7 +8,9 @@ def initialiseMatrix():
   print(matrix)
   print(len(matrix))
   return matrix
-initialiseMatrix()
+
+
+matrix = initialiseMatrix()
 
 for i in range(0,6):
   for j in range (0,6):
