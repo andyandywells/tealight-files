@@ -4,9 +4,9 @@ def initialiseMatrix():
   
  
   matrix[0][0] = 1
-  matrix[0][2] = 1
-  matrix[0][3] = 1
-  matrix[0][4] = 1
+  matrix[1][0] = 1
+  matrix[2][0] = 1
+  matrix[3][0] = 1
   
   print(matrix)
   print(len(matrix))
