@@ -57,7 +57,8 @@ def checkWin():
   checkDiagonalLR()
   if checkHorizontal() == False or checkVertical() == False or checkDiagonalLR() == False or checkDiagonalRL() == False:
     print("four in a row")
-    
+
+initialiseMatrix()    
 checkWin()
 
 
