@@ -32,4 +32,4 @@ def checkDiagonalRL():
         print("four in a row")
 
 
-checkDiagonalRL()
+checkDiagonalLR()
