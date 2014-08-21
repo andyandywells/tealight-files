@@ -10,5 +10,8 @@ def initialiseMatrix():
 
 initialiseMatrix()
 
-
+for i in range(0,6):
+  for j in range (0,6):
+    if matrix[i] == matrix [j+1]:
+      print("two in a row")
   
