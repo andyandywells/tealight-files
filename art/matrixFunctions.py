@@ -1,4 +1,4 @@
-from github.griffithsben.tealight.art.Connect4Main import *
+from github.GriffithsBen.art.Connect4Main import *
 p1win = 1
 p2win = 2
 
