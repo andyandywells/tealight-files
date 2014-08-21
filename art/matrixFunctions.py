@@ -1,5 +1,5 @@
-global p1win = 1
-global p2win = 2
+p1win = 1
+p2win = 2
 
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
