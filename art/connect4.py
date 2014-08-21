@@ -12,6 +12,6 @@ matrix = initialiseMatrix()
 
 for col in range(0,6):
   for row in range (0,6):
-    if matrix[col][row] == matrix[col+1][row] and matrix[col][row] == 1:
+    if matrix[col][row] == matrix[col+1][row+1] and matrix[col][row] == 1:
       print("two in a row")
   
