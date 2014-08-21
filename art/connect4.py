@@ -18,7 +18,7 @@ matrix = initialiseMatrix()
 def checkDiagonalLR():
   for row in range(0,6):
     for col in range (0,6):
-      if matrix[col][row] == 1 and matrix[col][row] == matrix[col+1][row+1] and matrix[col][row] == matrix[col+2][row+2] and matrix[col][row] == matrix[col+3][row+3]:
+      if matrix[row][col] == 1 and matrix[row][col] == matrix[row+1][col+1] and matrix[row][col] == matrix[row+2][col+2] and matrix[row][col] == matrix[row+3][col+3]:
         print("four in a row")
       
 
@@ -26,7 +26,7 @@ def checkDiagonalLR():
 def checkDiagonalRL():
   for row in range(0,6):
     for col in range (0,6):
-      if matrix[col][row] == 1 and matrix[col][row] == matrix[col-1][row+1] and matrix[col][row] == matrix[col-2][row+2] and matrix[col][row] == matrix[col-3][row+3]:
+      if matrix[row][col] == 1 and matrix[row][col] == matrix[row-1][col+1] and matrix[row][col] == matrix[row-2][col+2] and matrix[row][col] == matrix[row-3][col+3]:
         print("four in a row")
 
 
