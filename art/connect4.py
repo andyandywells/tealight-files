@@ -10,3 +10,5 @@ def initialiseMatrix():
 
 initialiseMatrix()
 
+for i in range(0,6):
+  
