@@ -11,6 +11,6 @@ def initialiseMatrix():
 matrix = initialiseMatrix()
 
 for col in range(0,6):
-   if matrix[col] == [col+1]
+   if matrix[col] == [col+1]:
      print("two in a row")
   
