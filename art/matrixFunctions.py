@@ -1,19 +1,15 @@
-
+import github.griffithsben.art.DetGrid
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
-  
- 
-  matrix[0][0] = 1
-  matrix[0][1] = 1
-  matrix[0][2] = 1
-  matrix[0][3] = 1
-  
-  print(matrix)
   return matrix
 
 matrix = initialiseMatrix()
 
-
+def turn():
+  if player == 1:
+    matrix[i][j] = 1
+  else:
+    matrix[i][j] = -1
   
 #check diagonal from left to right
 def checkDiagonalLR():
