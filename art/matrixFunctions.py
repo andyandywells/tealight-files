@@ -57,4 +57,6 @@ def checkWin():
   checkDiagonalLR()
   if checkHorizontal == 0:
     print("four in a row")
+    
+checkWin()
   
