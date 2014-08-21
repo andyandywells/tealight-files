@@ -3,10 +3,10 @@ def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
   
  
-  matrix[4][1] = 1
-  matrix[3][2] = 1
-  matrix[2][3] = 1
-  matrix[1][4] = 1
+  matrix[0][0] = 1
+  matrix[0][2] = 1
+  matrix[0][3] = 1
+  matrix[0][4] = 1
   
   print(matrix)
   print(len(matrix))
@@ -43,4 +43,4 @@ def checkVertical():
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row][col-1] and matrix[row][col] == matrix[row][col-2] and matrix[row][col] == matrix[row][col-3]:
         print("four in a row")
 
-checkDiagonalRL()
+checkVertical()
