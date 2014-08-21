@@ -2,10 +2,10 @@ global matrix
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
   
-  matrix[5][0]
-  matrix[4][1]
-  matrix[3][2]
-  matrix[2][3]
+  matrix[5][0] = 1
+  matrix[4][1] = 1
+  matrix[3][2] = 1
+  matrix[2][3] = 1
   
   
   print(matrix)
