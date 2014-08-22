@@ -13,7 +13,7 @@ matrix = initialiseMatrix()
 
 
 #check diagonal from left to right
-def checkDiagonalLR():
+def checkDiagonalLR(matrix):
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row+1][col+1] and matrix[row][col] == matrix[row+2][col+2] and matrix[row][col] == matrix[row+3][col+3]:
@@ -23,7 +23,7 @@ def checkDiagonalLR():
       
 
 #check diagonal from right to left
-def checkDiagonalRL():
+def checkDiagonalRL(matrix):
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row-1][col+1] and matrix[row][col] == matrix[row-2][col+2] and matrix[row][col] == matrix[row-3][col+3]:
@@ -32,7 +32,7 @@ def checkDiagonalRL():
         return False
 
 #check horizontal 
-def checkHorizontal():
+def checkHorizontal(matrix):
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row+1][col] and matrix[row][col] == matrix[row+2][col] and matrix[row][col] == matrix[row+3][col]:
@@ -41,7 +41,7 @@ def checkHorizontal():
         return False
 
 #check vertical
-def checkVertical():
+def checkVertical(matrix):
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row][col-1] and matrix[row][col] == matrix[row][col-2] and matrix[row][col] == matrix[row][col-3]:
@@ -49,7 +49,7 @@ def checkVertical():
       else:
         return False
 
-def checkWin():
+def checkWin(matrix):
   checkVertical()
   checkHorizontal()
   checkDiagonalRL()
