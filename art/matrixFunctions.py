@@ -8,7 +8,9 @@ def initialiseMatrix():
   matrix[4][3]
   matrix[5][4]
   return matrix
+
 matrix = initialiseMatrix()
+
 def checkwin():
   for row in range(0,6):
     for col in range (0,6):
