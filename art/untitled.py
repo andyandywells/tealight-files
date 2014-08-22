@@ -58,3 +58,4 @@ def checkWin(x):
 
    
 checkWin(matrix)
+initialiseMatrix()
