@@ -7,7 +7,7 @@ print "This is art mode!"
 print screen_width
 print screen_height
 
-background("paper.jpg")
+background("https://www.dropbox.com/s/j6vgsg3aujwbxco/RED_WINS.png")
 
 line(0,0,screen_width, screen_height)
 
