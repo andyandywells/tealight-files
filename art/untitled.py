@@ -7,12 +7,7 @@ def initialiseMatrix():
 
 matrix = initialiseMatrix()
 
-def turn():
-  if player == 1:
-    matrix[i][j] = 1
-  else:
-    matrix[i][j] = -1
-  
+
 #check diagonal from left to right
 def checkDiagonalLR():
   for row in range(0,6):
