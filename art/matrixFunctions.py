@@ -27,5 +27,5 @@ def checkwin(matrix):
       else:
         return 0
 
-initialiseMatrix()      
+matrix = initialiseMatrix()      
 checkwin(matrix)
