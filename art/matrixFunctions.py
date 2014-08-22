@@ -26,3 +26,6 @@ def checkwin(matrix):
         return p2win
       else:
         return 0
+
+initialiseMatrix()      
+checkwin(matrix)
