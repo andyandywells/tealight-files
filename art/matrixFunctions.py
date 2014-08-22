@@ -12,7 +12,7 @@ def initialiseMatrix():
 
 
 
-def checkwin():
+def checkwin(matrix):
   for row in range(0,6):
     for col in range (0,6):
       if (matrix[row][col] == 1 and ((matrix[row][col] == matrix[row][col-1] and matrix[row][col] == matrix[row][col-2] and matrix[row][col] == matrix[row][col-3])
@@ -28,4 +28,4 @@ def checkwin():
       
 
 matrix = initialiseMatrix()      
-checkwin()
+checkwin(matrix)
