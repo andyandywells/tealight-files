@@ -49,11 +49,11 @@ def checkVertical(matrix):
       else:
         return False
 
-def checkWin(matrix):
-  checkVertical()
-  checkHorizontal()
-  checkDiagonalRL()
-  checkDiagonalLR()
+def checkWin(x):
+  checkVertical(x)
+  checkHorizontal(x)
+  checkDiagonalRL(x)
+  checkDiagonalLR(x)
 
 
    
