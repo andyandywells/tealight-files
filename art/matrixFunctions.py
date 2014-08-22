@@ -25,4 +25,4 @@ def checkwin(matrix):
       else:
         return 0
 
-checkwin()
+checkwin(matrix)
