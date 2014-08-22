@@ -3,10 +3,10 @@ p2win = "Yellow wins"
 
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
-  matrix[2][1]
-  matrix[3][2]
-  matrix[4][3]
-  matrix[5][4]
+  matrix[2][1] = 1
+  matrix[3][2] = 1
+  matrix[4][3] = 1
+  matrix[5][4] = 1
   return matrix
 
 matrix = initialiseMatrix()
@@ -18,7 +18,7 @@ def checkwin():
                                       or (matrix[row][col] == matrix[row+1][col] and matrix[row][col] == matrix[row+2][col] and matrix[row][col] == matrix[row+3][col])
                                       or (matrix[row][col] == matrix[row-1][col+1] and matrix[row][col] == matrix[row-2][col+2] and matrix[row][col] == matrix[row-3][col+3])
                                       or (matrix[row][col] == matrix[row+1][col+1] and matrix[row][col] == matrix[row+2][col+2] and matrix[row][col] == matrix[row+3][col+3]))):
-        print("p1 win")
+        return p1win
       if ( matrix[row][col] == -1 and ((matrix[row][col] == matrix[row][col-1] and matrix[row][col] == matrix[row][col-2] and matrix[row][col] == matrix[row][col-3])
                                       or (matrix[row][col] == matrix[row+1][col] and matrix[row][col] == matrix[row+2][col] and matrix[row][col] == matrix[row+3][col])
                                       or (matrix[row][col] == matrix[row-1][col+1] and matrix[row][col] == matrix[row-2][col+2] and matrix[row][col] == matrix[row-3][col+3])
