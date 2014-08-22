@@ -27,7 +27,7 @@ def checkDiagonalRL():
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row-1][col+1] and matrix[row][col] == matrix[row-2][col+2] and matrix[row][col] == matrix[row-3][col+3]:
-        return True
+        print("four in a row")
       else:
         return False
 
@@ -36,7 +36,7 @@ def checkHorizontal():
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row+1][col] and matrix[row][col] == matrix[row+2][col] and matrix[row][col] == matrix[row+3][col]:
-        return True
+        print("four in a row")
       else:
         return False
 
@@ -45,7 +45,7 @@ def checkVertical():
   for row in range(0,6):
     for col in range (0,6):
       if matrix[row][col] == 1 and matrix[row][col] == matrix[row][col-1] and matrix[row][col] == matrix[row][col-2] and matrix[row][col] == matrix[row][col-3]:
-        return True
+        print("four in a row")
       else:
         return False
 
@@ -54,8 +54,7 @@ def checkWin():
   checkHorizontal()
   checkDiagonalRL()
   checkDiagonalLR()
-  if checkHorizontal() == True or checkVertical() == True or checkDiagonalLR() == True or checkDiagonalRL() == True:
-    print("four in a row")
+
 
    
 checkWin()
