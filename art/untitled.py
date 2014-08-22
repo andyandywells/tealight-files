@@ -56,6 +56,5 @@ def checkWin(x):
   checkDiagonalLR(x)
 
 
-   
-checkWin(matrix)
 initialiseMatrix()
+checkWin(matrix)
