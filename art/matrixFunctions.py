@@ -3,10 +3,10 @@ p2win = "Yellow wins"
 
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
-  matrix[1][0] = 1
-  matrix[1][1] = 1
-  matrix[1][2] = 1
-  matrix[1][3] = 1
+  matrix[2][0] = 1
+  matrix[2][1] = 1
+  matrix[2][2] = 1
+  matrix[2][3] = 1
   print(matrix)
   return matrix
 
