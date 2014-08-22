@@ -3,14 +3,10 @@ p2win = "Yellow wins"
 
 def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
-  matrix[2][1] = 1
-  matrix[3][2] = 1
-  matrix[4][3] = 1
-  matrix[5][4] = 1
-  print(matrix)
+
   return matrix
 
-matrix = initialiseMatrix()
+
 
 def checkwin(matrix):
   for row in range(0,6):
