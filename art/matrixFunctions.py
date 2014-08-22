@@ -7,6 +7,7 @@ def initialiseMatrix():
   matrix[1][6] = 1
   matrix[2][6] = 1
   matrix[3][6] = 1
+  print(matrix)
   return matrix
 
 
