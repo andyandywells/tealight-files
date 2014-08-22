@@ -2,7 +2,7 @@ p1win = "Red wins"
 p2win = "Yellow wins"
 
 def initialiseMatrix():
-  matrix = [[0 for i in range(7)] for j in range(7)]
+  matrix = [[0 for i in range(8)] for j in range(8)]
   matrix[0][6] = 1
   matrix[1][6] = 1
   matrix[2][6] = 1
