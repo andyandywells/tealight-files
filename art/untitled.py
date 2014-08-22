@@ -53,5 +53,5 @@ def checkWin():
   if checkHorizontal() == True or checkVertical() == True or checkDiagonalLR() == True or checkDiagonalRL() == True:
     print("four in a row")
 
-initialiseMatrix()    
+   
 checkWin()
